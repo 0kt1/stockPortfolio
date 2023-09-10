@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+  height: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  background-color: #7fe7f7;
+  padding: 100px;
+}
+
+body{
+  background-color: #7fe7f7;
+  /* background: url('background.jpg'); */
+  background-size: fill;
+}
+
+hr {
+  width: 90%;
+}
+
+.container {
+  background-color: rgb(7, 65, 55);
+  background-color: rgba(9, 79, 75, 0.9);
+  opacity: 0.9;
+  color: white;
+  margin: 5% auto;
+  width: 66%;
+  height: auto;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .5);
+  border-radius: 5px;
+}
+
+.header {
+  padding: 34px 34px 0px 34px;
+  margin-left: 15px;
+  font-size: 32px;
+}
+
+.indices {
+  padding: 10px 10px 10px 10px;
+  margin-left: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+
+}
+.indices > * {
+
+  background-color: black;  
+  height: auto;
+  width: 40px;
+  text-align: center;
+
+}
+.stock {
+  display: flex;
+  font-size: 13px;
+  padding: 25px;
+  padding-right: 65px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid white;
+  overflow: visible; /* Add this to hide overflowing text */ /* Add this to round the corners of the container */
+}
+
+.name, .price, .change {
+  flex: 1;
+}
+
+.lastUpdated {
+  margin-left: 15px;
+  padding: 34px 34px 10px 9px;
+  font-size: 18px;
+  color: orange;
+}
+
+.closeTime {
+  margin-left: 15px;
+  padding: 0px 34px 34px 9px;
+  font-size: 18px;
+  color: orange;
+}
+
+.searchbar {
+  width: 50%;
+  height: 30px;
+  padding-left: 16px;
+  margin: 5% 25% 0 25%;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+#search, #viewChart {
+height: 6vh;
+width: 24vh;
+  color: black;
+}
+
+#search:hover, #viewChart:hover {
+  color: rgb(148, 160, 181);
+  margin-bottom: 10px;
+}
+
+#stockChart {
+  margin-left: 15%;
+}
